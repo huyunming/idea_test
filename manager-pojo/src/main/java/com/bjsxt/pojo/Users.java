@@ -34,4 +34,13 @@ public class Users {
     public void setUserage(Integer userage) {
         this.userage = userage;
     }
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "userid=" + userid +
+                ", username='" + username + '\'' +
+                ", userage=" + userage +
+                '}';
+    }
 }
